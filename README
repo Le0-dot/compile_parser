@@ -1,0 +1,8 @@
+# compile_parser
+Couple of simple compiler parsers written for practice
+
+First compiler parser is LL(1) parser in ll1_parser directory
+    stmt -> expr
+    expr -> term | term + expr
+    term -> fact | fact * term
+    fact -> NUM | ( expr )
